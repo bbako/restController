@@ -36,8 +36,8 @@
 		<constructor-arg ref="sqlSessionFactory"></constructor-arg>
 	</bean>
 	
-	<!-- <context:component-scan base-package="org.young.persistence" />
+	<context:component-scan base-package="org.young.persistence" />
 	<context:component-scan base-package="org.young.domain" />
 	<context:component-scan base-package="org.young.service" />
-	 -->
+	
 </beans>
